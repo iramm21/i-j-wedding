@@ -37,12 +37,12 @@ export default function CountdownTimer() {
   if (!mounted) return null;
 
   return (
-    <section className="bg-primary text-secondary py-16 px-4 sm:px-6 lg:px-8">
+    <section className="bg-primary text-secondary py-10 sm:py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto text-center">
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-serif font-bold mb-8">
           Countdown to Our Big Day!
         </h2>
-        <div className="flex justify-center space-x-8 md:space-x-16 text-4xl md:text-6xl font-bold">
+        <div className="flex flex-wrap justify-center gap-4 sm:gap-8 text-2xl sm:text-4xl md:text-6xl font-bold">
           <div className="flex flex-col items-center">
             <span className="bg-primaryDark text-secondary py-3 px-5 sm:py-4 sm:px-6 rounded-lg shadow-lg">
               {timeLeft.days}
